@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/AsilbekTursunov/My_Movies/static/css/main.6bbe478a.css",
-    "main.js": "/AsilbekTursunov/My_Movies/static/js/main.f0595607.js",
-    "index.html": "/AsilbekTursunov/My_Movies/index.html",
-    "main.6bbe478a.css.map": "/AsilbekTursunov/My_Movies/static/css/main.6bbe478a.css.map",
-    "main.f0595607.js.map": "/AsilbekTursunov/My_Movies/static/js/main.f0595607.js.map"
+    "main.css": "/My_Movies/static/css/main.6bbe478a.css",
+    "main.js": "/My_Movies/static/js/main.f0595607.js",
+    "index.html": "/My_Movies/index.html",
+    "main.6bbe478a.css.map": "/My_Movies/static/css/main.6bbe478a.css.map",
+    "main.f0595607.js.map": "/My_Movies/static/js/main.f0595607.js.map"
   },
   "entrypoints": [
     "static/css/main.6bbe478a.css",
