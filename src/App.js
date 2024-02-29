@@ -15,6 +15,7 @@ const App = () =>{
         <MoviesBlock  />
         <NewMovies />
       </div>
+      <div className="copy-right rounded-3 p-3 text-center">  Copy Right By <a href="https://github.com/AsilbekTursunov">Asilbek Tursun</a></div>
     </div>
   );
 } 

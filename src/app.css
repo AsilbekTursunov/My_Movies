@@ -1,4 +1,16 @@
 .App {
   color: rgb(31, 37, 43);
 }
+.copy-right{
+  background-color: #29333c; 
+  color: #c3cbce;
+}
+.copy-right a{
+  color: #c3cbce;
+  text-decoration: none;
+}
+.copy-right a:hover{
+  color: #0978da;
+  text-decoration: underline;
+}
  
