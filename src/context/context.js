@@ -12,10 +12,7 @@ export const Context = createContext()
 
 const reducer = (state = initialValue, action) =>{
     const { type, payload } = action 
-    switch (type) {
-        // case 'GET_DATA':
-        //         localStorage.setItem('movie',JSON.stringify(payload))
-        //      return 
+    switch (type) { 
         case 'ON_DELETE':  
             const newarr = state.localdata.filter(item => item.id !== payload) 
             localStorage.setItem('movie',JSON.stringify(newarr))
