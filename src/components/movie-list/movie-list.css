@@ -1,0 +1,39 @@
+.movie-card{
+    /* width: 220px; */
+    padding: 0rem .312rem .625rem .312rem;
+} 
+.card-info{ 
+    height: 125px;
+    background-color: #242b30;
+    color: #c3cbce;
+    padding: .4875rem; 
+    border-radius: 0rem 0rem .312rem .312rem ;
+}
+.movie-img{  
+    height:220px; 
+}
+.movie-img img{
+    width: 100%;
+    height: 100%;
+}
+.movie-title{
+    padding: .312rem 0rem;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0rem;
+}
+.movie-feedback button {
+    background: transparent;
+    border: 1px solid #242b30;
+    color: #c3cbce;
+    margin-top: .312rem;
+}
+.movie-feedback button i{ 
+    display: inline-block;
+    padding: .312rem;
+}
+@media only screen and (max-width:567px){
+    .card-info{ 
+        margin: auto;
+    }
+ }

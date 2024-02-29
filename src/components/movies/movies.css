@@ -1,0 +1,8 @@
+.movies-block{
+    background-color: #29333c; 
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between;  */
+    /* padding: 0; */
+} 

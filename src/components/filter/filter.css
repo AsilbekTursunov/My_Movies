@@ -1,0 +1,45 @@
+.filter-block{
+    background-color: #29333c; 
+    margin-top: 1rem;
+}
+.form-group input{
+    background-color: #c3cbce; 
+}
+.btn-group{
+    margin-top:1rem;
+}
+.btn-live {
+    background-color: transparent;
+    padding: .5rem .625rem;
+    color: #c3cbce;
+    border:1px solid #c3cbce;
+    transition: all .5s;
+    margin-bottom:.625rem;
+}
+
+.btn-live:hover{
+    background-color: #c3cbce; 
+    color: #29333c; 
+}
+.active-btn{
+    background-color: #c3cbce; 
+    color: #29333c; 
+}
+.btn-group{
+    display: flex;
+    flex-direction: column;
+}
+@media only screen and (min-width:768px){
+    .btn-live:first-child{
+        border-radius: .625rem 0rem 0rem .625rem;
+    }
+    .btn-live:last-child{
+        border-radius: 0rem.625rem  .625rem 0rem;
+    }
+    .btn-live { 
+        margin-bottom:0rem;
+    }
+    .btn-group{ 
+        flex-direction: row;
+    }
+ }

@@ -1,0 +1,9 @@
+.app-info{
+    background-color: #29333c; 
+    margin-top: 1rem;
+}
+.app-info h1{
+    font-size: 3rem;
+    color: #c3cbce;
+    user-select: none;
+}

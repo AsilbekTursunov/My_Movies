@@ -1,0 +1,28 @@
+.new-movies{
+    background-color: #29333c; 
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    display: flex; 
+}
+.new-movies button{
+   border-radius: 0rem;
+}
+.new-movies-input{  
+    background-color: #c3cbce;  
+ }
+ @media only screen and (max-width:992px){
+    .new-movies{ 
+        flex-direction: column;
+    }
+ }
+ @media only screen and (min-width:992px){
+    .new-movies{ 
+        flex-direction: row;
+    }
+    .new-movies button{
+        width: 400px;
+     }
+     .new-movies-input{  
+        width: 400px; 
+      }
+ } 
